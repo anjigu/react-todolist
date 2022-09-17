@@ -1,0 +1,25 @@
+.Template {
+  padding-top: 20px;
+  max-height: 100vh;
+}
+.title {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(128,133,146);
+}
+
+.footer {
+  width: 30vw;
+  margin-left: 350px;
+  font-size: 0.7rem;
+  color: rgb(128,133,146);
+}
+
+.Background {
+  color: rgb(210,213,218);
+}
+
