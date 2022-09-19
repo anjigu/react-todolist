@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# 투두리스트 만들기
+![todolist](https://user-images.githubusercontent.com/102123710/191109397-d92b3233-786b-4673-9f26-266c2fa0489a.GIF)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## 프로젝트 목표
+* React와 CSS를 이용하여 간단한 CRUD 기능이 있는 투두리스트 앱 구현
 
-### `yarn start`
+## 프로젝트에 사용한 기술
+### React
+* useState, useRef, useCallback 등의 리액트 훅을 사용함
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### CSS
+* 기본적인 스타일 작성
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
+### 할 일 추가
+* 하단의 초록색 플러스 버튼을 누르면 alert창이 뜹니다.
+* alert창에 텍스트를 적고 플러스 버튼을 누르면할 일이 목록에 저장됩니다. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 체크 기능
+* 텍스트를 클릭하면 체크되며 가운데 밑줄이 그어집니다
 
-### `yarn build`
+### 수정 기능
+* 리스트에 있는 항목을 클릭하면 alert창이 뜹니다.
+* alert창 Input에 텍스트를 수정 및 입력하고 연필 아이콘을 클릭하면 할 일의 텍스트가 수정됩니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 삭제 기능
+* 리스트에 있는 항목을 클릭하면 alert창이 뜹니다.
+* alert창 하단에 빨간색 마이너스 버튼을 누르면 리스트가 삭제됩니다. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
